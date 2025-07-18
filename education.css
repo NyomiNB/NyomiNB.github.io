@@ -1,0 +1,19 @@
+.navBar{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navBar a{
+  font-size: 30px;
+  font-family: "Send Flowers";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navBar a:hover{
+ }
+.send-flowers-regular {
+  font-family: "Send Flowers", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

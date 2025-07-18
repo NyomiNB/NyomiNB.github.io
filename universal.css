@@ -1,0 +1,28 @@
+.navBar{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #2E294E;
+
+}
+body{
+    background-color: #A3A5C3;
+}
+.navBar a{
+  font-size: 30px;
+  color: white;
+  font-family: "Send Flowers";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav active {
+   color: orange
+}
+.navBar a:hover{
+    color: #87B38D;
+ }
+.send-flowers-regular {
+  font-family: "Send Flowers", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
