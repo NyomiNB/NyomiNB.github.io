@@ -18,21 +18,18 @@
   font-weight: 400;
   font-style: normal;
 }
-.gallery{
-  display: flex;
-  flex-direction: row;
-    display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: .5em;
-  justify-content: center;
-  align-items: center;
-  margin-inline-start: 20px;
+.gallary img{
+       height:150px;
+  width: 100%;
+   object-fit:fill;
+ }
+ 
+ /*Gallary*/
 
-}
- .gallery img{
-  width:250px;
-  height:180px;
-    padding: 0px;
-padding-bottom:  0px; 
+.gallary{
+ 
+display:flex;
+   justify-content: center;
+  flex-direction: row;
+  padding-top: 20px;
 }
