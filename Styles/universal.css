@@ -5,10 +5,14 @@
 
 }
 body{
+    font-family: "Intel One Mono";
+
     background-color: #A3A5C3;
 }
 .blurb{
-  font-size: 24px;
+   font-size: 24px;
+   color: white;
+  background-color: #2E294E;
 }
 .navBar a{
   font-size: 30px;
@@ -140,3 +144,10 @@ position: absolute;
   font-weight: 400;
   font-style: normal;
 }
+
+.intel-one-regular {
+  font-family: "Intel One Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+

@@ -11,10 +11,22 @@
 }
 
 .navBar a:hover{
-  
+
  }
 .send-flowers-regular {
   font-family: "Send Flowers", cursive;
   font-weight: 400;
   font-style: normal;
+}
+ul {
+list-style-image:url(assets/star.svg);
+}
+.photos{
+display: flex;
+flex-direction: row;
+}
+.photos img {
+       height:200px;
+  width:100%;
+   object-fit:cover;
 }
