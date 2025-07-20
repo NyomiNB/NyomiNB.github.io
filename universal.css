@@ -18,6 +18,48 @@ body{
 .nav active {
    color: orange
 }
+.container img{
+       height:200px;
+  width:100%;
+   object-fit: cover;
+ }
+ .aboutMe{
+  top:20%;
+  left: 40%;
+  position: absolute;
+    letter-spacing: 4px;
+
+ text-align: center;
+font-size: 20px;
+justify-content: center;
+  color: white;
+background-color: #2e294e6b;
+ transition: .25s ease-in;
+ }
+.aboutMe:hover{
+  letter-spacing: 7px;
+ text-align: center;  
+ top:20%;
+ font-size: 24px;
+background-color: #2e294e6b;
+   color: white;
+position: absolute;
+   cursor: default;
+   transition: .5s ease-out;
+
+}
+
+
+.container{
+ 
+display:flex;
+/* align-items: stretch;
+  flex-direction: row; */
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
 .navBar a:hover{
     color: #87B38D;
  }
