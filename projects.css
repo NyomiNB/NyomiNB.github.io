@@ -18,3 +18,21 @@
   font-weight: 400;
   font-style: normal;
 }
+.gallery{
+  display: flex;
+  flex-direction: row;
+    display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: .5em;
+  justify-content: center;
+  align-items: center;
+  margin-inline-start: 20px;
+
+}
+ .gallery img{
+  width:250px;
+  height:180px;
+    padding: 0px;
+padding-bottom:  0px; 
+}
