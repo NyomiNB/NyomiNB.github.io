@@ -2,18 +2,24 @@
   display: flex;
   justify-content: space-evenly;
 }
-
+body{
+  font-family: "Intel One Mono";
+}
 .navBar a{
-  font-size: 30px;
-  font-family: "Send Flowers";
+  font-size: 21px;
+  text-decoration: none;
+   color: white;
+  font-family: "Intel One Mono";
+  font-weight: 400;
+  font-style: normal;
+}
+.intel-one-regular {
+  font-family: "Intel One Mono", monospace;
   font-weight: 400;
   font-style: normal;
 }
 
-.navBar a:hover{
-
- }
-.send-flowers-regular {
+ .send-flowers-regular {
   font-family: "Send Flowers", cursive;
   font-weight: 400;
   font-style: normal;

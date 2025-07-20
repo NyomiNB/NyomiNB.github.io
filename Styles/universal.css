@@ -15,17 +15,15 @@ body{
   background-color: #2E294E;
 }
 .navBar a{
-  font-size: 30px;
-  color: white;
-  font-family: "Send Flowers";
+  font-size: 21px;
+  text-decoration: none;
+   color: white;
+  font-family: "Intel One Mono";
   font-weight: 400;
   font-style: normal;
 }
 
-.nav active {
-   color: orange
-}
- /*Gallary Images*/
+  /*Gallary Images*/
 
 .container img{
        height:200px;
@@ -34,6 +32,16 @@ body{
  }
  
  /*Gallary*/
+.logoContainer{
+ 
+display:flex;
+   justify-content: center;
+  flex-direction: row;
+  padding-top: 20px;
+}
+.logoContainer img{
+  padding-right: 20px;
+}
 
 .container{
  
@@ -137,7 +145,7 @@ position: absolute;
 
  
 .navBar a:hover{
-    color: #87B38D;
+    color: #8cbae3;
  }
 .send-flowers-regular {
   font-family: "Send Flowers", cursive;
