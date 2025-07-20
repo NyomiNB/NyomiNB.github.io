@@ -7,6 +7,9 @@
 body{
     background-color: #A3A5C3;
 }
+.blurb{
+  font-size: 24px;
+}
 .navBar a{
   font-size: 30px;
   color: white;
@@ -36,6 +39,39 @@ display:flex;
   padding-top: 20px;
 }
  /*About Me Text*/
+
+  /*phones*/
+ @media only screen and (max-width: 600px){
+ .aboutMe{
+  top:12%;
+  left: 35%;
+  position: absolute;
+    letter-spacing: 4px;
+
+ text-align: center;
+font-size: 20px;
+justify-content: center;
+  color: white;
+background-color: #2e294e6b;
+ transition: .25s ease-in;
+ }
+.aboutMe:hover{
+  letter-spacing: 7px;
+ text-align: center;  
+ top:20%;
+ font-size: 24px;
+background-color: #2e294e6b;
+   color: white;
+position: absolute;
+   cursor: default;
+   transition: .5s ease-out;
+
+}
+ }
+
+ /*tablets, large*/
+ @media only screen and (min-width: 600px){
+
  .aboutMe{
   top:20%;
   left: 35%;
@@ -63,6 +99,39 @@ position: absolute;
 }
  
 
+ }
+ /*laptops*/
+  @media only screen and (min-width: 992px){
+   .aboutMe{
+  top:15%;
+  left: 45%;
+  position: absolute;
+    letter-spacing: 4px;
+
+ text-align: center;
+font-size: 20px;
+justify-content: center;
+  color: white;
+background-color: #2e294e6b;
+ transition: .25s ease-in;
+ }
+.aboutMe:hover{
+  letter-spacing: 7px;
+ text-align: center;  
+  top:15%;
+  left: 45%;
+ background-color: #2e294e6b;
+   color: white;
+position: absolute;
+   cursor: default;
+   transition: .5s ease-out;
+
+}
+ 
+
+ }
+
+ 
 .navBar a:hover{
     color: #87B38D;
  }
