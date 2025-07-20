@@ -23,7 +23,7 @@ body{
 .container img{
        height:200px;
   width:100%;
-   object-fit: cover;
+   object-fit:cover;
  }
  
  /*Gallary*/
@@ -38,7 +38,7 @@ display:flex;
  /*About Me Text*/
  .aboutMe{
   top:20%;
-  left: 40%;
+  left: 35%;
   position: absolute;
     letter-spacing: 4px;
 
