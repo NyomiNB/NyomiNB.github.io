@@ -83,9 +83,7 @@ background-color: #2e294e6b;
 .aboutMe:hover{
   letter-spacing: 7px;
  text-align: center;  
- top:20%;
- font-size: 24px;
-background-color: #2e294e6b;
+  background-color: #2e294e6b;
    color: white;
 position: absolute;
    cursor: default;
