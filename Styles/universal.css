@@ -13,6 +13,13 @@ body{
 
     background-color: #A3A5C3;
 }
+a{
+color:rgb(154, 16, 182)
+}
+a:hover{
+color:rgb(179, 74, 200)
+
+}
 .blurb{
    font-size: 24px;
    color: white;
