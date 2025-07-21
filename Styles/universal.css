@@ -10,8 +10,15 @@ html {
 }
 body{
     font-family: "Intel One Mono";
+    min-height: 100vh;
+ display: grid;
+ grid-template-rows: auto 1fr auto;
 
     background-color: #A3A5C3;
+}
+footer{
+   min-height: 50px;
+  text-align: center;
 }
 a{
 color:rgb(154, 16, 182)
@@ -41,10 +48,7 @@ color:rgb(179, 74, 200)
   width:100%;
    object-fit:cover;
  }
- footer{
-  text-align: center;
- }
- /*Gallary*/
+  /*Gallary*/
 .logoContainer{
  
 display:flex;
