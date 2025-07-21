@@ -1,3 +1,8 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
 .navBar{
   display: flex;
   justify-content: space-evenly;
@@ -27,12 +32,5 @@ body{
 ul {
 list-style-image:url(assets/star.svg);
 }
-.photos{
-display: flex;
-flex-direction: row;
-}
-.photos img {
-       height:200px;
-  width:100%;
-   object-fit:cover;
-}
+   /*phones*/
+ 

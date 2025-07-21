@@ -1,3 +1,7 @@
+html {
+  height: 100%;
+  width: 100%;
+}
 .navBar{
   display: flex;
   justify-content: space-evenly;
@@ -30,7 +34,9 @@ body{
   width:100%;
    object-fit:cover;
  }
- 
+ footer{
+  text-align: center;
+ }
  /*Gallary*/
 .logoContainer{
  
