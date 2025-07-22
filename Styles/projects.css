@@ -125,7 +125,10 @@ padding-bottom:  0px;
    object-fit:cover;
  }
 
- 
+.center img{
+height:20px ;
+width:10px;
+}  
  /*Gallary*/
 
 .gallary{
