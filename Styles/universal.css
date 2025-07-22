@@ -130,7 +130,7 @@ position: absolute;
  /*laptops*/
   @media only screen and (min-width: 992px){
    .aboutMe{
-  top:15%;
+  top:10%;
   left: 45%;
   position: absolute;
     letter-spacing: 4px;

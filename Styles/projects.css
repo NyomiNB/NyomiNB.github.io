@@ -59,7 +59,26 @@ h2{
 
 
 }
+ .center:hover{
+  border:  5px solid rgb(180, 239, 254);
+}
+
+ .CreativeSpaces img{
+  border:  5px solid rgb(241, 211, 119);
+}
+.CreativeSpaces img:hover{
+  border:  5px solid rgb(224, 215, 164);
+}
+
+.motion img{
+  border:  5px solid rgb(99, 114, 171);
+}
+.motion img:hover{
+  border:  5px solid rgb(177, 187, 226);
+}
 .center{
+    border:  5px solid rgb(45, 169, 200);
+
   display: block;
   margin-left: auto;
   margin-right: auto;
