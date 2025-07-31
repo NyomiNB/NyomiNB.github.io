@@ -1,204 +1,28 @@
-html {
-  height: 100%;
-  width: 100%;
-}
-body{
-  font-family: "Intel One Mono";
-}
-.intel-one-regular {
-  font-family: "Intel One Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
+ body{
+      font-family: "Intel One Mono";
+    min-height: 100vh;
+ display: grid;
+ grid-template-rows: auto 1fr auto;
 
-
-.navBar{
-  display: flex;
-  justify-content: space-evenly;
+    background-color: #A3A5C3; 
+    
  }
+ .background{
+    background-color: #A3A5C3; 
 
-.navBar a{
-  font-size: 21px;
-  text-decoration: none;
-   color: white;
-  font-family: "Intel One Mono";
-  font-weight: 400;
-  font-style: normal;
-}
- .navBar:active{
-  color:  #87B38D
-} 
-.send-flowers-regular {
-  font-family: "Send Flowers", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-h2{
-  text-align: center;
-}
-.gallaryPhotos{
-  display:flex;
-  flex-direction:row;
-  flex-wrap: wrap;
-  gap: .5em;
-  justify-content: center;
-  align-items: center;
-  margin-inline-start: 20px;
-}
-.creativeSpacesPhoto{
-  justify-content: center;
-  align-items: center;
-}
-.projectsContainer{
-    display:grid;
-    justify-content: center;
-  flex-direction: row;
-  padding-top: 20px;
-  justify-content: center;
-
-
-}
- .center:hover{
-  border:  5px solid rgb(180, 239, 254);
-}
-
- .CreativeSpaces img{
-  border:  5px solid rgb(241, 211, 119);
-}
-.CreativeSpaces img:hover{
-  border:  5px solid rgb(224, 215, 164);
-}
-
-.motion img{
-  border:  5px solid rgb(99, 114, 171);
-}
-.motion img:hover{
-  border:  5px solid rgb(177, 187, 226);
-}
-.center{
-    border:  5px solid rgb(45, 169, 200);
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
- .motion img{
-  height: "200px";
-  width: "100px";
- 
-}
-
-.motion{
-    display:flex;
-justify-content: space-evenly;
- 
-}
-.pageContainer{
-  
-  margin:auto;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  text-align:center;
-  max-width: 1000px;
-
-}
-.gallaryPhotos img{
-  width:300px;
-  height:200px;
-    padding: 0px;
-padding-bottom:  0px; 
-
-}
-  /*phones*/
- @media only screen and (max-width: 600px){
-
-.gallary img{
-       height:auto;
-  width: 100%;
-   object-fit:cover;
  }
- .gallary2 img{
-       height:auto;
-  width: 100%;
-   object-fit:cover;
- }
+     .bd-placeholder-img {
+      object-fit: contain;
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
 
-.center img{
-height:20px ;
-width:10px;
-}  
- /*Gallary*/
-
-.gallary{
- 
-display:flex;
-   justify-content: center;
-  flex-direction: row;
-  padding-top: 20px;
-}
- }
-
-   /*phones*/
- @media only screen and (max-width: 600px){
-
-.gallary img{
-       height:150px;
-  width: 100%;
-   object-fit:scale-down;
- }
- 
- /*Gallary*/
-
-.gallary{
- 
-display:flex;
-   justify-content: center;
-  flex-direction: row;
-  padding-top: 20px;
-}
- }
-
- /*tablets, large phones*/
- @media only screen and (min-width: 600px){
-
-.gallary img{
-       height:150px;
-  width: 100%;
-   object-fit:scale-down;
- }
- 
- /*Gallary*/
-
-.gallary{
- 
-display:flex;
-   justify-content: center;
-  flex-direction: row;
-  padding-top: 20px;
-}
- }
-h1{
-  text-align: center;
-}
-  /*laptops*/
-  @media only screen and (min-width: 992px){
-.gallary img{
-       height:150px;
-  width: 100px;
-   object-fit:scale-down;
- }
- 
- /*Gallary*/
-
-.gallary{
- 
-display:flex;
-align-items: center;
-   justify-content: center;
-  flex-direction: row;
-  padding-top: 20px;
-}
- }
-
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
