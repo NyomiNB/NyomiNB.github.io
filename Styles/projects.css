@@ -11,6 +11,12 @@
     background-color: #A3A5C3; 
 
  }
+ .gofish{
+  background-color: rgb(207, 179, 232);
+ }
+ .creative{
+  background-color: white;
+ }
      .bd-placeholder-img {
       object-fit: contain;
       font-size: 1.125rem;
